@@ -13,19 +13,14 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 
 print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
 print ("\033[1;32mSilahkan Masukkan Username & Password")
-print ("\033[1;32matau silahkan Hubungi MR-JACK ")
+print ("\033[1;32mAtau silahkan Hubungi MR-JACK ")
 print ("\033[1;32mWhatsApp : 0822 1944 9227 ")
 os.system('date | lolcat')
 print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
- x = str(input('\033[1;92mUsername \033[1;93m: '))
-                print("")
-                e = getpass('\033[1;92mPassword \033[1;93m: ')
-                print ("")
-                if x=="Username" and e=="Password":
-                   print('Login Sukses Mohon Tunggu Sebentar...')
-                   time.sleep(1)
-                   os.system('clear')
-                   print('')
+
+username = 'Mr-Jack'      
+password = 'RedAxee'
+
 def restart():
 
 	ngulang = sys.executable
