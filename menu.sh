@@ -2,12 +2,12 @@ sleep 1
 clear
 echo
 echo
-echo $pur"==================="$cy" ========================================"
-echo $i"XX"$pu"  AUTHOR       :  MR-JACK  "$i"                          XX"
-echo $i"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"         XX"
-echo $i"XX"$pu"  WhatsApp     :  082219449227 "$i"                      XX"
-echo $i"XX"$pu"  Youtube      :  Feri                      "$i"         XX"
-echo $pur"==================="$cy" ========================================="
+echo $pur"==================="$cy" ====================================="
+echo $i"XX"$pu"  AUTHOR       :  MR-JACK  "$i"                       XX"
+echo $i"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"      XX"
+echo $i"XX"$pu"  WhatsApp     :  082219449227 "$i"                   XX"
+echo $i"XX"$pu"  Youtube      :  Feri                   "$i"         XX"
+echo $pur"==================="$cy" ====================================="
 echo
 echo $cy"MENU MR-JACK:"
 echo $ku"["$me"1"$ku"]"$i"Spam Call"
@@ -44,7 +44,7 @@ cd BulkMailSpam
 python2 BulkMailSpam.py
 fi
 
-if [ $pil = 2 ]
+if [ $pil = 3 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
@@ -92,7 +92,6 @@ if [ $pil = 7 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-figlet -f slant "MRX.pen"|lolcat
 sleep 5
 git clone https://github.com/ClayHackerTeam/webdav
 cd webdav
@@ -116,6 +115,6 @@ echo $ku"WhatsApp :"$i" 082219449227"
 sleep 3
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 3
-echo $pur"SUBSCRIBE MY CHANNEL { Feri }"
+echo $pur"SUBSCRIBE MY CHANNEL Red Axee{ Feri }"
 exit
 fi
