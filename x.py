@@ -16,7 +16,7 @@ print ("\033[1;32mSilahkan Masukkan Username & Password")
 print ("\033[1;32mAtau silahkan Hubungi MR-JACK ")
 print ("\033[1;32mWhatsApp : 0822 1944 9227 ")
 os.system('date | lolcat')
-print('\033[1;36;40m<===============[ MR-JACK ] ===============>'))
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
 
 username = 'MR-JACK'      
 
