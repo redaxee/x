@@ -27,6 +27,10 @@ echo $ku"["$me"1"$ku"]"$i"Donasi Dengan Subribe"
 echo $ku"["$me"2"$ku"]"$i"INSTALL"
 echo $ku"["$me"3"$ku"]"$i"Tool"
 echo $ku"["$me"0"$ku"]"$i"Exit"
+echo
+echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
+read -p">> " pil
+
 
 if [ $pil = 1 ]
 then
