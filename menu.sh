@@ -30,7 +30,7 @@ echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
 echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
 echo $ku"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
-echo $ku"["$me"8"$ku"]"$i"Game"
+echo $ku"["$me"8"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
 echo $i"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
