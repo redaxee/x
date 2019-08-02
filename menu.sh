@@ -97,7 +97,7 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 pip2 install requests
-https://github.com/redaxee/crkfb
+git clone https://github.com/redaxee/crkfb
 cd crkfb 
 python2 fb.py
 fi
