@@ -16,10 +16,13 @@ print ("\033[1;32mSilahkan Masukkan Username & Password")
 print ("\033[1;32mAtau silahkan Hubungi MR-JACK ")
 print ("\033[1;32mWhatsApp : 0822 1944 9227 ")
 os.system('date | lolcat')
-print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>'))
 
-username = 'Mr-Jack'      
+username = 'MR-JACK'      
+
 password = 'RedAxee'
+
+
 
 def restart():
 
@@ -41,7 +44,7 @@ def main():
 
 		if pwd == password:
 
-			print "\033[1;32mSEMOGA BERHASIL..", 
+			print "\033[1;32mSelamat Datang Di Tool Menu MR-JACK..", 
 
 			sys.exit()
 
