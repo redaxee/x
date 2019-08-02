@@ -117,12 +117,12 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 5
-git clone https://github.com/redaxee/game
-cd game
-ls
-echo $pur" cara menggunakannya "
-echo $pur" sh game sh / python2 game titik py "
+git clone https://github.com/redaxee/tsel
+cd tsel
+python2 15Gb.py
 fi
+
+
 
 if [ $pil = 0 ]
 then
