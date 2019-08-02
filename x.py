@@ -1,21 +1,23 @@
-from getpass import getpass
-import os
-import time
+#Decompiled by MR-JACK
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
+from multiprocessing.pool import ThreadPool
 
-def menu():
-      while True:
-           print("")
-           os.system("clear")
-           print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
-           print('')
-           os.system('date | lolcat')
-           print("\033[1;93m")
-           print(" \033[1;92m   Silahkan Login Eaa Sayang')")
-           print("\033[1;93m")
-           print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
-           print("")
-           try:
-                x = str(input('\033[1;92mUsername \033[1;93m: '))
+from requests.exceptions import ConnectionError
+from mechanize import Browser
+reload(sys)
+sys.setdefaultencoding('utf8')
+br = mechanize.Browser()
+br.set_handle_robots(False)
+br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
+br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
+
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
+print ("\033[1;32mSilahkan Masukkan Username & Password")
+print ("\033[1;32matau silahkan Hubungi MR-JACK ")
+print ("\033[1;32mWhatsApp : 0822 1944 9227 ")
+os.system('date | lolcat')
+print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
+ x = str(input('\033[1;92mUsername \033[1;93m: '))
                 print("")
                 e = getpass('\033[1;92mPassword \033[1;93m: ')
                 print ("")
@@ -24,34 +26,58 @@ def menu():
                    time.sleep(1)
                    os.system('clear')
                    print('')
-                   os.system('figlet ' + x + ' | lolcat')
-                   print('\033[1;36;40m<===============[ MR-JACK ] ===============>')
-                   print("")
-                   break
-                else:
-                      print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
-                      time.sleep(2)
-                      print("")
-           except Exception:
-                      
-                      print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
-                      time.sleep(2)
-           except KeyboardInterrupt:
-                      print("")
-                      os.system('killall -9 com.termux')
-                      print("")
-                      print("")
-                      print("")
-                      print("")
-                      print("\033[1;91m     Password/Usr Name Salah")
-                      time.sleep(2)
-menu()
+def restart():
+
+	ngulang = sys.executable
+
+	os.execl(ngulang, ngulang, *sys.argv)
+
+
+
+def main():
+
+	uname = raw_input("username : ")
+
+	if uname == username:
+
+		pwd = raw_input("password : ")
+
+
+
+		if pwd == password:
+
+			print "\033[1;32mSEMOGA BERHASIL..", 
+
+			sys.exit()
+
+
+
+		else:
+
+			print "\033[1;32mMaaf Masukkan password Anda salah... [?]\033[00m"
+
+			print "Silahkan segera log-in kembali...!!\n"
+
+			restart()
+
+
+
+	else:
+
+		print "\033[1;32mMaaf Masukkan Username Anda salah... [?]\033[00m"
+
+		print "Silahkan segera log-in kembali...!!\n"
+
+		restart()
+
+
+
+try:
+
+	main()
+
+except KeyboardInterrupt:
+	os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
+	os.system('clear')
+
+	restart()
