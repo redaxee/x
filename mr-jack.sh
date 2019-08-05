@@ -23,12 +23,16 @@ echo $i"XX"$pu"  Youtube      :  RedAxee   (Feri)       "$i"         XX"
 echo $pur"==================="$cy" ====================================="
 echo
 echo $me"<===============[ MR-JACK ] ===============>"
-echo $cy"MENU MR-JACK:"
+echo $bi"MENU MR-JACK:"
 echo $me"<===============[ MR-JACK ] ===============>"
-echo $ku"["$me"1"$ku"]"$i"Donasi Dengan Subribe"
+echo $ku"["$me"1"$ku"]"$i"SUBCRIBE"
 echo $ku"["$me"2"$ku"]"$i"INSTALL"
-echo $ku"["$me"3"$ku"]"$i"Tool"
-echo $me"<===============[ MR-JACK ] ===============>"
+echo $i"["$me"3"$ku"]"$i"Tool"
+echo $bi"<===============[ MR-JACK ] ===============>"
+echo $i"YANG BARU PERTAMA MEMAKAI SCIPRT INI "
+echo $i"PILIH NOMER 2 WAJIB SIKA SUDAH INSTALL"
+echo $cy"PILIH NOMER 3"
+echo $bi"<===============[ MR-JACK ] ===============>"
 echo $ku"["$me"0"$ku"]"$i"Exit"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
@@ -59,7 +63,7 @@ clear
 sleep 3
 git clone https://github.com/redaxee/x
 cd x
-sh menu.sh
+sh xx.sh
 fi
 
 
