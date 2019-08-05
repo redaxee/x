@@ -46,7 +46,7 @@ def main():
 		if pwd == password:
 
 			print "\033[1;32mPakai Lah Dengan Baik Baik..", 
-			sleep(4)
+
 			sys.exit()
 
 
