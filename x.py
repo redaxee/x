@@ -1,5 +1,5 @@
 #Decompiled by MR-JACK
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize
+import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib, requests, mechanize, getpass
 from multiprocessing.pool import ThreadPool
 
 from requests.exceptions import ConnectionError
@@ -38,14 +38,15 @@ def main():
 
 	if uname == username:
 
-		pwd = raw_input("password : ")
-
-
+		pwd = getpass("password : ")
 
 		if pwd == password:
 
 			print "\033[1;32mSelamat Datang Di Tool Menu MR-JACK..", 
 			sleep(4)
+			
+		os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
+		
 			sys.exit()
 
 
