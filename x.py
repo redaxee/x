@@ -38,7 +38,7 @@ def main():
 
 	if uname == username:
 
-		pwd = getpass("password : ")
+		pwd = raw_input("password : ")
 
 		if pwd == password:
 
