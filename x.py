@@ -45,7 +45,7 @@ def main():
 		if pwd == password:
 
 			print "\033[1;32mSelamat Datang Di Tool Menu MR-JACK..", 
-
+			sleep(4)
 			sys.exit()
 
 
