@@ -16,10 +16,10 @@ clear
 echo
 echo
 echo $pur"==================="$cy" ====================================="
-echo $i"XX"$pu"  AUTHOR       :  MR-JACK  "$i"                       XX"
-echo $i"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"      XX"
-echo $i"XX"$pu"  WhatsApp     :  082219449227 "$i"                   XX"
-echo $i"XX"$pu"  Youtube      :  RedAxee   (Feri)       "$i"         XX"
+echo $i"XX"$pu"  AUTHOR        :  MR-JACK  "$i"                       XX"
+echo $i"XX"$pu"  Blogger       :  Blog-RedAxee.blogspot.com "$i"      XX"
+echo $i"XX"$pu"  WhatsApp      :  082219449227 "$i"                   XX"
+echo $i"XX"$pu"  Youtube       :  RedAxee   (Feri)       "$i"         XX"
 echo $pur"==================="$cy" ====================================="
 echo
 echo $me"<===============[ MR-JACK ] ===============>"
@@ -31,12 +31,12 @@ echo $i"["$me"3"$ku"]"$i"Tool"
 echo $bi"<===============[ MR-JACK ] ===============>"
 echo $i"YANG BARU PERTAMA MEMAKAI SCIPRT INI "
 echo $i"PILIH NOMER 2 WAJIB SIKA SUDAH INSTALL"
-echo $cy"PILIH NOMER 3"
+echo $i"PILIH NOMER 3"
 echo $bi"<===============[ MR-JACK ] ===============>"
 echo $ku"["$me"0"$ku"]"$i"Exit"
 echo
-echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
-read -p">> " pil
+echo $cya"["$cy"Masukkan pilihan anda"$pur"]"
+read -p"MR-JAK~>> " pil
 
 
 if [ $pil = 1 ]
