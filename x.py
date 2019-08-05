@@ -24,6 +24,7 @@ password = 'RedAxee'
 
 
 
+
 def restart():
 
 	ngulang = sys.executable
@@ -40,13 +41,12 @@ def main():
 
 		pwd = raw_input("password : ")
 
+
+
 		if pwd == password:
 
-			print "\033[1;32mSelamat Datang Di Tool Menu MR-JACK..", 
+			print "\033[1;32mPakai Lah Dengan Baik Baik..", 
 			sleep(4)
-			
-		os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
-		
 			sys.exit()
 
 
