@@ -1,23 +1,33 @@
 clear
+bi='\033[34;1m' #biru
+i='\033[32;1m' #ijo
+pur='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #purple
+ku='\033[33;1m' #kuning
 echo
 echo
-echo $pur"==================="$cy" ====================================="
+clear
+echo
+echo
+echo $bi"==================="$cy" ====================================="
 echo $i"XX"$pu"  AUTHOR       :  MR-JACK  "$i"                       XX"
 echo $i"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$i"      XX"
 echo $i"XX"$pu"  WhatsApp     :  082219449227 "$i"                   XX"
 echo $i"XX"$pu"  Youtube      :  Feri                   "$i"         XX"
-echo $pur"==================="$cy" ====================================="
+echo $bi"==================="$cy" ====================================="
 echo
-echo $cy"MENU MR-JACK:"
-echo $ku"["$me"1"$ku"]"$i"Spam Call"
-echo $ku"["$me"2"$ku"]"$i"Spam Gmail"
-echo $ku"["$me"3"$ku"]"$i"Brutal Sms"
-echo $ku"["$me"4"$ku"]"$i"Melacak Orang"
-echo $ku"["$me"5"$ku"]"$i"HACK CCTV"
-echo $ku"["$me"6"$ku"]"$i"HACK FACEBOOK TARGET"
-echo $ku"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
+echo $me"MENU MR-JACK:"
+echo $cy"["$me"1"$ku"]"$i"Spam Call"
+echo $me"["$me"2"$ku"]"$i"Spam Gmail"
+echo $cy"["$me"3"$ku"]"$i"Brutal Sms"
+echo $i"["$me"4"$ku"]"$i"Melacak Orang"
+echo $i"["$me"5"$ku"]"$i"HACK CCTV"
+echo $i"["$me"6"$ku"]"$i"CRACK FACEBOOK TARGET"
+echo $i"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
 echo $ku"["$me"8"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
-echo $i"["$me"0"$i"]"$ku" EXIT"
+echo $me"["$me"0"$i"]"$ku" EXIT"
 echo
 echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
 read -p">> " pil
