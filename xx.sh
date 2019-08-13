@@ -32,7 +32,7 @@ echo $i"["$ku"10"$ku"]"$i"HACK @WIFI.ID"
 echo $ku"["$me"0"$me"]"$ku" EXIT"
 echo
 echo $cya"["$bi"Masukkan pilihan anda"$bi"]"
-read -p">>" pil
+read -p">> " pil
 
 if [ $pil = 1 ]
 then
