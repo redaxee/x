@@ -19,19 +19,20 @@ echo $i"XX"$pu"  Youtube      :  Feri                   "$i"         XX"
 echo $bi"==================="$cy" ====================================="
 echo
 echo $me"MENU MR-JACK:"
-echo $cy"["$me"1"$ku"]"$i"Spam Call"
-echo $me"["$me"2"$ku"]"$i"Spam Gmail"
-echo $cy"["$me"3"$ku"]"$i"Brutal Sms"
+echo $i"["$me"1"$ku"]"$i"Spam Call"
+echo $i"["$me"2"$ku"]"$i"Spam Gmail"
+echo $i"["$me"3"$ku"]"$i"Brutal Sms"
 echo $i"["$me"4"$ku"]"$i"Melacak Orang"
 echo $i"["$me"5"$ku"]"$i"HACK CCTV"
 echo $i"["$me"6"$ku"]"$i"CRACK FACEBOOK TARGET"
 echo $i"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
 echo $i"["$me"8"$ku"]"$i"SMS GRATIS"
-echo $ku"["$me"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
+echo $i"["$me"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
+echo $i"["$ku"10"$ku"]$i"HACK @WIFI.ID"
 echo $me"["$me"0"$i"]"$ku" EXIT"
 echo
-echo $pur"["$pur"Masukkan pilihan anda"$pur"]"
-read -p">> " pil
+echo $cya"["$bi"Masukkan pilihan anda"$bi"]"
+read -p"@MR_JACK " pil
 
 if [ $pil = 1 ]
 then
@@ -113,22 +114,30 @@ if [ $pil = 8 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 5
+sleep 3
 git clone https://github.com/redaxee/freesms
 cd freesms
 python freesms.py
-
-
 fi
 
 if [ $pil = 9 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 5
+sleep 3
 git clone https://github.com/redaxee/tsel
 cd tsel
 python2 15Gb.py
+fi
+
+[ $pil = 10 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 3
+git clone https://github.com/redaxee/Hackwifiid
+cd Hackwifiid
+python2 Hackwifiid.py
 fi
 
 if [ $pil = 0 ]
