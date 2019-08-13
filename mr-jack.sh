@@ -15,19 +15,19 @@ sleep 1
 clear
 echo
 echo
-echo $pur"==================="$cy" ====================================="
-echo $i"XX"$pu"  AUTHOR        :  MR-JACK  "$i"                       XX"
-echo $i"XX"$pu"  Blogger       :  Blog-RedAxee.blogspot.com "$i"      XX"
-echo $i"XX"$pu"  WhatsApp      :  082219449227 "$i"                   XX"
-echo $i"XX"$pu"  Youtube       :  RedAxee   (Feri)       "$i"         XX"
-echo $pur"==================="$cy" ====================================="
+echo $bi"==================="$cy" ====================================="
+echo $me"XX"$pu"  AUTHOR       :  MR-JACK  "$me"                       XX"
+echo $me"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$me"      XX"
+echo $me"XX"$pu"  WhatsApp     :  082219449227 "$me"                   XX"
+echo $me"XX"$pu"  Youtube      :  Feri                   "$me"         XX"
+echo $bi"==================="$cy" ====================================="
 echo
 echo $me"<===============[ MR-JACK ] ===============>"
 echo $bi"MENU MR-JACK:"
 echo $me"<===============[ MR-JACK ] ===============>"
-echo $i"["$ku"1"$ku"]"$i"SUBCRIBE"
-echo $i"["$ku"2"$ku"]"$i"INSTALL"
-echo $i"["$ku"3"$ku"]"$i"Tool"
+echo $ku"["$i"1"$ku"]"$me"SUBCRIBE"
+echo $ku"["$i"2"$ku"]"$ku"INSTALL"
+echo $ku"["$i"3"$ku"]"$cya"Tool"
 echo $bi"<===============[ MR-JACK ] ===============>"
 echo $i"YANG BARU PERTAMA MEMAKAI SCIPRT INI "
 echo $i"PILIH NOMER 2 WAJIB SIKA SUDAH INSTALL"
