@@ -25,17 +25,17 @@ echo
 echo $me"<===============[ MR-JACK ] ===============>"
 echo $bi"MENU MR-JACK:"
 echo $me"<===============[ MR-JACK ] ===============>"
-echo $ku"["$me"1"$ku"]"$i"SUBCRIBE"
-echo $ku"["$me"2"$ku"]"$i"INSTALL"
-echo $i"["$me"3"$ku"]"$i"Tool"
+echo $i"["$ku"1"$ku"]"$i"SUBCRIBE"
+echo $i"["$ku"2"$ku"]"$i"INSTALL"
+echo $i"["$ku"3"$ku"]"$i"Tool"
 echo $bi"<===============[ MR-JACK ] ===============>"
 echo $i"YANG BARU PERTAMA MEMAKAI SCIPRT INI "
 echo $i"PILIH NOMER 2 WAJIB SIKA SUDAH INSTALL"
 echo $i"PILIH NOMER 3"
 echo $bi"<===============[ MR-JACK ] ===============>"
-echo $ku"["$me"0"$ku"]"$i"Exit"
+echo $ku"["$me"0"$me"]"$i"Exit"
 echo
-echo $cya"["$cy"Masukkan pilihan anda"$pur"]"
+echo $cya"["$cy"Masukkan pilihan anda Demean Menggunakan Nomer"$pur"]"
 read -p"MR-JAK~>> " pil
 
 
