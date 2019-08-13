@@ -114,7 +114,7 @@ if [ $pil = 8 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 3
+sleep 1
 git clone https://github.com/redaxee/freesms
 cd freesms
 python freesms.py
@@ -124,17 +124,17 @@ if [ $pil = 9 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 3
+sleep 1
 git clone https://github.com/redaxee/tsel
 cd tsel
 python2 15Gb.py
 fi
 
-[ $pil = 10 ]
+if [ $pil = 10 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 3
+sleep 1
 git clone https://github.com/redaxee/Hackwifiid
 cd Hackwifiid
 python2 Hackwifiid.py
