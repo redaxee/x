@@ -46,7 +46,7 @@ def main():
 		if pwd == password:
 
 			print "\033[1;32mPakai Lah Dengan Baik Baik..", 
-
+			os.system('xdg-open https://www.youtube.com/channel/UCuMk-x9YpT1ctiYh3HpGvRw')
 			sys.exit()
 
 
