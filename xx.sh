@@ -29,10 +29,10 @@ echo $i"["$me"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
 echo $i"["$me"8"$ku"]"$i"SMS GRATIS"
 echo $i"["$me"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
 echo $i"["$ku"10"$ku"]$i"HACK @WIFI.ID"
-echo $me"["$me"0"$i"]"$ku" EXIT"
+echo $ku"["$me"0"$me"]"$ku" EXIT"
 echo
 echo $cya"["$bi"Masukkan pilihan anda"$bi"]"
-read -p"@MR_JACK " pil
+read -p">>" pil
 
 if [ $pil = 1 ]
 then
