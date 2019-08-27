@@ -115,7 +115,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/redaxee/freesms
+git clone https://github.com/redaxee/smsgratis
 cd freesms
 python freesms.py
 fi
@@ -146,17 +146,17 @@ clear
 figlet -f slant "W A I T"|Ulolcat
 sleep 2
 echo $cy"Terima Kasih sudah mengunakan Tools ini"
-sleep 2
+sleep 4
 echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
-sleep 2
+sleep 4
 echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
-sleep 3
+sleep 4
 echo $bi"Facebook :"$i" fb.com/redaxeee"
 echo $me"YouTube  :"$i" Feri"
 echo $ku"WhatsApp :"$i" 082219449227"
-sleep 3
+sleep 5
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
-sleep 3
+sleep 4
 echo $pur"SUBSCRIBE MY CHANNEL Red Axee{ Feri }"
 exit
 fi
