@@ -24,12 +24,12 @@ echo $ku"["$bi"2"$ku"]"$i"Spam Gmail"
 echo $ku"["$bi"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$bi"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$bi"5"$ku"]"$i"HACK CCTV"
-echo $ku"["$bi"6"$ku"]"$i"CRACK FACEBOOK TARGET"
+echo $ku"["$bi"6"$ku"]"$i"CRACK FACEBOOK TARGET" [MAINTENACE]
 echo $ku"["$bi"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
 echo $ku"["$bi"8"$ku"]"$i"SMS GRATIS"
 echo $ku"["$bi"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
 echo $ku"["$bi"10"$ku"]"$i"HACK @WIFI.ID"
-echo $me"["$bi"0"$me"]"$ku" EXIT"
+echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
 echo $cya"["$bi"Masukkan pilihan anda"$bi"]"
 read -p">> " pil
