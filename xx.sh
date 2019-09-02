@@ -24,14 +24,14 @@ echo $ku"["$bi"2"$ku"]"$i"Spam Gmail"
 echo $ku"["$bi"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$bi"4"$ku"]"$i"Melacak Orang"
 echo $ku"["$bi"5"$ku"]"$i"HACK CCTV"
-echo $ku"["$bi"6"$ku"]"$i"CRACK FACEBOOK TARGET" [MAINTENACE]
+echo $ku"["$bi"6"$ku"]"$i"CRACK FACEBOOK TARGET"
 echo $ku"["$bi"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
 echo $ku"["$bi"8"$ku"]"$i"SMS GRATIS"
 echo $ku"["$bi"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
 echo $ku"["$bi"10"$ku"]"$i"HACK @WIFI.ID"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
-echo $cya"["$bi"Masukkan pilihan anda"$bi"]"
+echo $cya"["$bi"Masukkan pilihan anda"$cys"]"
 read -p">> " pil
 
 if [ $pil = 1 ]
@@ -115,9 +115,9 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/redaxee/smsgratis
-cd freesms
-python freesms.py
+git clone https://github.com/redaxee/smsgraris
+cd smsgraris
+python smsgraris.py
 fi
 
 if [ $pil = 9 ]
