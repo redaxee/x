@@ -31,7 +31,8 @@ echo $ku"["$bi"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
 echo $ku"["$bi"10"$ku"]"$i"HACK @WIFI.ID"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
-echo $cya"["$bi"Masukkan pilihan anda"$cys"]$me"
+echo $cya"["$bi"Masukkan pilihan anda"$cya"]$
+"
 read -p">> " pil
 
 if [ $pil = 1 ]
