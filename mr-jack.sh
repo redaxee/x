@@ -34,7 +34,7 @@ echo $ku"DI MOHON UNTUK INSTALL BAHAN TERLEBIH DAHULU"
 echo $bi"<===============[ MR-JACK ] ===============>"
 echo $ku"["$me"0"$me"]"$i"Exit"
 echo
-echo $cya"["$cy"Masukkan pilihan anda Demean Menggunakan Nomer"$pur"]"
+echo $cya"["$cy"Masukkan pilihan Anda Dengan Menggunakan Nomer"$pur"]"
 read -p"MR-JAK~>> " pil
 
 
@@ -54,6 +54,7 @@ sleep 3
 git clone https://github.com/redaxee/x
 cd x
 sh install.sh
+sh xx.sh
 fi
 
 if [ $pil = 3 ]
