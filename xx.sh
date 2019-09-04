@@ -141,6 +141,16 @@ cd Hackwifiid
 python2 Hackwifiid.py
 fi
 
+if [ $pil = 11 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/redaxee/Hcam
+cd Hcam
+bash Hcam.sh
+fi
+
 if [ $pil = 0 ]
 then
 clear
