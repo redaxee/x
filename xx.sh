@@ -23,12 +23,14 @@ echo $ku"["$bi"1"$ku"]"$i"Spam Call"
 echo $ku"["$bi"2"$ku"]"$i"Spam Gmail"
 echo $ku"["$bi"3"$ku"]"$i"Brutal Sms"
 echo $ku"["$bi"4"$ku"]"$i"Melacak Orang"
-echo $ku"["$bi"5"$ku"]"$i"HACK CCTV"
-echo $ku"["$bi"6"$ku"]"$i"CRACK FACEBOOK TARGET"
+echo $ku"["$bi"5"$ku"]"$i"Hack Cctv"
+echo $ku"["$bi"6"$ku"]"$i"Crack Facebook Target"
 echo $ku"["$bi"7"$ku"]"$i"Mencari Kelemahan WEB (RED_HAWK)"
-echo $ku"["$bi"8"$ku"]"$i"SMS GRATIS"
-echo $ku"["$bi"9"$ku"]"$i"PAKET TELKOMSEL 15GB 75K"
-echo $ku"["$bi"10"$ku"]"$i"HACK @WIFI.ID"
+echo $ku"["$bi"8"$ku"]"$i"Sms Gratis"
+echo $ku"["$bi"9"$ku"]"$i"Paket Telkomsel 15GB 75K"
+echo $ku"["$bi"10"$ku"]"$i"Hack @wifi.id"
+echo $ku"["$bi"11"$ku"]"$i"hack Camera"
+echo $ku"["$bi"12"$ku"]"$i"Menampilkan Tambahan Tombol Termux"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
 echo $cya"["$bi"Masukkan pilihan anda"$cya"]$
@@ -151,6 +153,17 @@ cd Hcam
 bash Hcam.sh
 fi
 
+if [ $pil = 12 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+https://github.com/redaxee/key
+cd key
+python key.py
+fi
+
+
 if [ $pil = 0 ]
 then
 clear
@@ -168,6 +181,5 @@ echo $ku"WhatsApp :"$i" 082219449227"
 sleep 5
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 4
-echo $pur"SUBSCRIBE MY CHANNEL Red Axee{ Feri }"
 exit
 fi
