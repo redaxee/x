@@ -33,7 +33,7 @@ echo $ku"["$bi"11"$ku"]"$i"hack Camera"
 echo $ku"["$bi"12"$ku"]"$i"Menampilkan Tambahan Tombol Termux"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
-echo $cya"["$bi"Masukkan pilihan anda"$cya"]
+echo $me"["$bi"Masukkan pilihan anda"$me"]
 "
 read -p">> " pil
 
