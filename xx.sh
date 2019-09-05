@@ -65,7 +65,7 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 pip2 install requests
-https://github.com/TERMUXID3/brutal-sms
+git clone https://github.com/TERMUXID3/brutal-sms
 cd brutal-sms
 python2 run.py
 fi
