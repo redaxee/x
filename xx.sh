@@ -31,12 +31,12 @@ echo $ku"["$bi"9"$ku"]"$i"Paket Telkomsel 15GB 75K"
 echo $ku"["$bi"10"$ku"]"$i"Hack @wifi.id"
 echo $ku"["$bi"11"$ku"]"$i"hack Camera"
 echo $ku"["$bi"12"$ku"]"$i"Menampilkan Tambahan Tombol Termux"
-echo $bi"==================="$cy" ====================================="
+echo $bi"========================================================"
 echo $ku"["$bi"13"$ku"]"$i"kunjungi Blogsplot"
 echo $ku"["$bi"14"$ku"]"$i"Download Aplikasi MRJACK"
 echo $i"Agar Mempermudah Lebih Mudah untuk Coppy paste"
 echo $ku"["$bi"15"$ku"]"$i"Chatt langsung Lewat WhatsApp"
-echo $bi"==================="$cy" ====================================="
+echo $bi"========================================================"
 
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
@@ -177,7 +177,7 @@ figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/redaxee/blogsplot
 cd blogsplot
-python2 key.py
+python2 blogsplot.py
 fi
 
 if [ $pil = 14 ]
@@ -205,7 +205,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 git clone https://github.com/redaxee/sub
-cd whatsapp
+cd sub
 python2 sub.py
 exit
 fi
