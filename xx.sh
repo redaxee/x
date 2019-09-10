@@ -13,7 +13,7 @@ echo
 echo
 echo $bi"==================="$cy" ====================================="
 echo $me"XX"$pu"  AUTHOR       :  MR-JACK  "$me"                       XX"
-echo $me"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$me"      XX"
+echo $me"XX"$pu"  Blogger      :  0101mrjack.blogspot.com "$me"      XX"
 echo $me"XX"$pu"  WhatsApp     :  082219449227 "$me"                   XX"
 echo $me"XX"$pu"  Youtube      :  Feri                   "$me"         XX"
 echo $bi"==================="$cy" ====================================="
@@ -31,6 +31,13 @@ echo $ku"["$bi"9"$ku"]"$i"Paket Telkomsel 15GB 75K"
 echo $ku"["$bi"10"$ku"]"$i"Hack @wifi.id"
 echo $ku"["$bi"11"$ku"]"$i"hack Camera"
 echo $ku"["$bi"12"$ku"]"$i"Menampilkan Tambahan Tombol Termux"
+echo $bi"==================="$cy" ====================================="
+echo $ku"["$bi"13"$ku"]"$i"kunjungi Blogsplot"
+echo $ku"["$bi"14"$ku"]"$i"Download Aplikasi MRJACK"
+echo $i"Agar Mempermudah Lebih Mudah untuk Coppy paste"
+echo $ku"["$bi"15"$ku"]"$i"Chatt langsung Lewat WhatsApp"
+echo $bi"==================="$cy" ====================================="
+
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
 echo $me"["$bi"Masukkan pilihan anda"$me"]
@@ -158,11 +165,50 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-https://github.com/redaxee/key
+git clone https://github.com/redaxee/key
 cd key
 python key.py
 fi
 
+if [ $pil = 13 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/redaxee/blogsplot
+cd key
+python2 key.py
+fi
+
+if [ $pil = 13 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/redaxee/blogsplot
+cd key
+python2 key.py
+fi
+
+if [ $pil = 14 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/redaxee/mrjackapk
+cd key
+python2 key.py
+fi
+
+if [ $pil = 15 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+git clone https://github.com/redaxee/whatsapp
+cd key
+python2 key.py
+fi
 
 if [ $pil = 0 ]
 then
