@@ -176,17 +176,7 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/redaxee/blogsplot
-cd key
-python2 key.py
-fi
-
-if [ $pil = 13 ]
-then
-clear
-figlet -f slant "W A I T"|lolcat
-sleep 1
-git clone https://github.com/redaxee/blogsplot
-cd key
+cd blogsplot
 python2 key.py
 fi
 
@@ -196,8 +186,8 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/redaxee/mrjackapk
-cd key
-python2 key.py
+cd mrjackapk
+python2 mrjackapk.py
 fi
 
 if [ $pil = 15 ]
@@ -206,26 +196,16 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
 git clone https://github.com/redaxee/whatsapp
-cd key
-python2 key.py
+cd whatsapp
+python2 whatsapp.py
 fi
 
 if [ $pil = 0 ]
 then
 clear
-figlet -f slant "W A I T"|Ulolcat
-sleep 2
-echo $cy"Terima Kasih sudah mengunakan Tools ini"
-sleep 4
-echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
-sleep 4
-echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
-sleep 4
-echo $bi"Facebook :"$i" fb.com/redaxeee"
-echo $me"YouTube  :"$i" Feri"
-echo $ku"WhatsApp :"$i" 082219449227"
-sleep 5
-echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
-sleep 4
+figlet -f slant "W A I T"|lolcat
+git clone https://github.com/redaxee/sub
+cd whatsapp
+python2 sub.py
 exit
 fi
