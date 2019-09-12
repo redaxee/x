@@ -114,7 +114,8 @@ if [ $pil = 7 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
-sleep 5
+sleep 1
+pip2 install requests
 git clone https://github.com/ClayHackerTeam/webdav
 cd webdav
 sh webdav.sh
@@ -125,7 +126,8 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
-git clone https://github.com/redaxee/smsgraris
+pip2 install requests
+git clone https://github.com/redaxee/smsgratis
 cd smsgraris
 python smsgraris.py
 fi
@@ -135,6 +137,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/tsel
 cd tsel
 python2 15Gb.py
@@ -145,6 +148,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/Hackwifiid
 cd Hackwifiid
 python2 Hackwifiid.py
@@ -155,6 +159,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/Hcam
 cd Hcam
 bash Hcam.sh
@@ -165,6 +170,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/key
 cd key
 python key.py
@@ -175,6 +181,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/blogsplot
 cd blogsplot
 python2 blogsplot.py
@@ -185,6 +192,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/mrjackapk
 cd mrjackapk
 python2 mrjackapk.py
@@ -195,6 +203,7 @@ then
 clear
 figlet -f slant "W A I T"|lolcat
 sleep 1
+pip2 install requests
 git clone https://github.com/redaxee/whatsapp
 cd whatsapp
 python2 whatsapp.py
@@ -204,6 +213,7 @@ if [ $pil = 0 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
+pip2 install requests
 git clone https://github.com/redaxee/sub
 cd sub
 python2 sub.py
