@@ -221,7 +221,7 @@ cd botfb
 python2 auto.py
 fi
 
-if [ $pil = 16 ]
+if [ $pil = 17 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
