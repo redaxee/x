@@ -13,9 +13,9 @@ echo
 echo
 echo $bi"==================="$cy" ====================================="
 echo $me"XX"$pu"  AUTHOR       :  MR-JACK  "$me"                       XX"
-echo $me"XX"$pu"  Blogger      :  0101mrjack.blogspot.com "$me"      XX"
+echo $me"XX"$pu"  Blogger      :  0101mrjack.blogspot.com "$me"        XX"
 echo $me"XX"$pu"  WhatsApp     :  082219449227 "$me"                   XX"
-echo $me"XX"$pu"  Youtube      :  Feri                   "$me"         XX"
+echo $me"XX"$pu"  Youtube      :  Red Axee               "$me"         XX"
 echo $bi"==================="$cy" ====================================="
 echo
 echo $me"MENU MR-JACK:"
@@ -32,12 +32,13 @@ echo $ku"["$bi"10"$ku"]"$i"Hack @wifi.id"
 echo $ku"["$bi"11"$ku"]"$i"hack Camera"
 echo $ku"["$bi"12"$ku"]"$i"Menampilkan Tambahan Tombol Termux"
 echo $bi"========================================================"
-echo $ku"["$bi"13"$ku"]"$i"kunjungi Blogsplot"
-echo $ku"["$bi"14"$ku"]"$i"Download Aplikasi MRJACK"
+echo $ku"["$bi"13"$ku"]"$i"kunjungi Blogspot"
+echo $ku"["$bi"14"$ku"]"$i"Download Aplikasi MR-JACK"
 echo $i"Agar Mempermudah Lebih Mudah untuk Coppy paste"
 echo $ku"["$bi"15"$ku"]"$i"Chatt langsung Lewat WhatsApp"
 echo $bi"========================================================"
-
+echo $ku"["$bi"16"$ku"]"$i"Bot Facebook (Auto like / komen / add)"
+echo $ku"["$bi"17"$ku"]"$i"Auto delet Satus Facebook"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
 echo $me"["$bi"Masukkan pilihan anda"$me"]
@@ -207,6 +208,28 @@ pip2 install requests
 git clone https://github.com/redaxee/whatsapp
 cd whatsapp
 python2 whatsapp.py
+fi
+
+if [ $pil = 16 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pip2 install requests
+git clone https://github.com/redaxee/botfb
+cd botfb
+python2 auto.py
+fi
+
+if [ $pil = 16 ]
+then
+clear
+figlet -f slant "W A I T"|lolcat
+sleep 1
+pip2 install requests
+git clone https://github.com/redaxee/delstatus
+cd delstatus
+php delete.php
 fi
 
 if [ $pil = 0 ]
