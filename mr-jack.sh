@@ -17,15 +17,15 @@ echo
 echo
 echo $bi"==================="$cy" ====================================="
 echo $me"XX"$pu"  AUTHOR       :  MR-JACK  "$me"                       XX"
-echo $me"XX"$pu"  Blogger      :  Blog-RedAxee.blogspot.com "$me"      XX"
+echo $me"XX"$pu"  Blogger      :  0101mrjack.blogspot.com "$me"       XX"
 echo $me"XX"$pu"  WhatsApp     :  082219449227 "$me"                   XX"
-echo $me"XX"$pu"  Youtube      :  Feri                   "$me"         XX"
+echo $me"XX"$pu"  Youtube      :  Red Axee               "$me"         XX"
 echo $bi"==================="$cy" ====================================="
 echo
 echo $me"<===============[ MR-JACK ] ===============>"
 echo $bi"MENU MR-JACK:"
 echo $me"<===============[ MR-JACK ] ===============>"
-echo $ku"["$i"1"$ku"]"$me"SUBCRIBE"
+echo $ku"["$i"1"$ku"]"$me"CHANNEL"
 echo $ku"["$i"2"$ku"]"$i"INSTALL BAHAN"
 echo $ku"["$i"3"$ku"]"$ku"TOOL"
 echo $bi"<===============[ MR-JACK ] ===============>"
@@ -75,12 +75,6 @@ echo $cy"Terima Kasih sudah mengunakan Tools ini"
 sleep 2
 echo $i"Silahkan di pakai semoga bermanfaat Buat anda"
 sleep 2
-echo $pur"Bila Ada Kesalahan Anda Bisa Nanya Melalui Via"
-sleep 3
-echo $ku"Facebook :"$i" fb.com/redaxeee"
-echo $ku"YouTube  :"$i" Feri"
-echo $ku"WhatsApp :"$i" 082219449227"
-sleep 3
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 3
 echo $pur"SUBSCRIBE MY CHANNEL Red Axee{ Feri }"
