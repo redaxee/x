@@ -56,7 +56,7 @@ def main():
 			print "\033[1;32mMaaf Masukkan password Anda salah... [?]\033[00m"
 
 			print "Silahkan segera log-in kembali...!!\n"
-
+			os.system('xdg-open wa.me/082219449227')
 			restart()
 
 
