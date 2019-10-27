@@ -39,6 +39,7 @@ echo $ku"["$bi"15"$ku"]"$i"Chatt langsung Lewat WhatsApp"
 echo $bi"========================================================"
 echo $ku"["$bi"16"$ku"]"$i"Bot Facebook (Auto like / komen / add)"
 echo $ku"["$bi"17"$ku"]"$i"Auto delet Satus Facebook"
+echo $ku"["$bi"18"$ku"]"$i"Install Ngork"
 echo $ku"["$bi"0"$ku"]"$me" EXIT"
 echo
 echo $me"["$bi"Masukkan pilihan anda"$me"]
@@ -230,6 +231,20 @@ pip2 install requests
 git clone https://github.com/redaxee/delstatus
 cd delstatus
 php delete.php
+fi
+
+if [ $pil = 18 ]
+then
+clear
+echo -e $green" Installing Ngrok "
+sleep 1
+apt install wget
+mkdir ngrok
+cd ~/ngrok
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+cd ~/
+echo -e $red" Done Install Cuk "
 fi
 
 if [ $pil = 0 ]
